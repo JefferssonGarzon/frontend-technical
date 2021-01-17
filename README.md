@@ -15,6 +15,7 @@ En total no debería tomarte mas de 2 día, pero usa tu tiempo sabiamente.
 ## Que debes hacer?
 
 Intenta reproducir el mock-up que encuentras en `mockup/tajem_master.png` lo más cercano posible.
+Vas a tener que utilizar el archivo fuente para extraer las imagenes, [puedes ubicarlo aqui](https://drive.google.com/drive/folders/197azF0bAlxBEEhhbIY4LJB2X4_YuwFfR?usp=sharing)
 Crea una version responsive del mock-up.
 Presta atención a los detalles.
 
