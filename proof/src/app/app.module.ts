@@ -13,6 +13,9 @@ import { FooterComponent } from './footer/footer.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { CommentsComponent } from './comments/comments.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,14 +26,16 @@ import {MatCardModule} from '@angular/material/card';
     ExpertiseComponent,
     OurWorksComponent,
     NewsAndClientsComponent,
-    FooterComponent
+    FooterComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule, 
-    MatCardModule
+    MatCardModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
