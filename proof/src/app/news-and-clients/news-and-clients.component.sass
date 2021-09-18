@@ -1,22 +1,21 @@
+.all
+    flex: 1
 
 mat-grid-list
     display: flex
-    flex-wrap: wrap    
+    // height: 100%    
     
     
-mat-grid-tile
-    form
-        margin-left: 10%
-        width: 70%
-        height: auto
+form
+    margin-left: 10%
+    width: 70%
 
 .title
     font-family: "Times New Roman"
     margin-bottom: 5%
+    margin-left: 10%
     h4
         margin-top: 5%
-        margin-left: 10%
-
 .form-group
     margin-bottom: 8%
     input
@@ -41,3 +40,21 @@ mat-grid-tile
         background-color: #0077b6
         color: white
         transition: 0.5s
+
+
+.clients-grid
+    width: 100%
+
+@media (max-width: 576px)
+    .title
+        text-align: center
+        margin: 0
+        
+    
+
+
+.logos-container
+    flex: 1
+    align-items: center
+    display: flex
+    flex-wrap: wrap
